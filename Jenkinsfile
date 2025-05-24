@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "checkout scm"
-                
+                git "https://github.com/Chandan-3461/CCTech-devops-may-24.git"
             }
         }
 
